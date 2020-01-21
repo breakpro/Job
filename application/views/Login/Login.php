@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-4" >
-                    <div class="h1 align-center" style="color: #fff;"><b style="font-weight: 200;">User login<b></div>
+                    <div class="h1 align-center" style="color: #fff;"><b style="font-weight: 700;">User login<b></div>
                     <form action="<?php echo base_url('login/auth');?>">
 
                         <div class="form-group" >
@@ -23,7 +23,7 @@
                             <div class="col-lg-8 col-md-6 col-xs-12 col-sm-12" style="text-align: float-left;">
                             <span>
                                 <a href="#"><b style="color: white; margin-left: 20px;">Forgot password</b></a><br>
-                                <a href="#"><b style="color: white; margin-left: 20px;">Create account</b></a>
+                                <a href="<?php echo base_url('Signup/')?>"><b style="color: white; margin-left: 20px;">Create account</b></a>
                             </span>
                             </div>
                             <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12" style="text-align: float-right;">
