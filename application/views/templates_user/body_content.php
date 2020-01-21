@@ -1,6 +1,5 @@
 
     <div class="hero-wrap js-fullheight" style="background-image: url('<?php echo base_url('assets/images/bg_2.jpg');?>');" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-xl-10 ftco-animate mb-5 pb-5" data-scrollax=" properties: { translateY: '70%' }">
