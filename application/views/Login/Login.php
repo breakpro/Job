@@ -15,17 +15,23 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="password">
                         </div>
-                        <div class="form-group" style="text-align: right; ">
+                        <!-- <div class="form-group" style="text-align: right; ">
                             <a href="#"><b style="color: white; margin-right: 20px;">Forgot password</b></a>
-                        </div>
+                        </div> -->
                         
-                        <div class="form-group" style="text-align: center; ">
-                            
-                            <button class="btn btn-primary btn-lg" style="padding: 12px 85px; " type="submit"><span><b>Login</b></span></button>
+                        <div class="form-group row" >
+                            <div class="col-lg-8 col-md-6 col-xs-12 col-sm-12" style="text-align: float-left;">
+                            <span>
+                                <a href="#"><b style="color: white; margin-left: 20px;">Forgot password</b></a><br>
+                                <a href="#"><b style="color: white; margin-left: 20px;">Create account</b></a>
+                            </span>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12" style="text-align: float-right;">
+                                <button class="btn btn-primary " style="padding: 12px 85px; " type="submit"><span><b>Login</b></span></button>
+                            </div>
                         </div>
                     </form>
                     
-                </div>
             
         </div>
       </div>
