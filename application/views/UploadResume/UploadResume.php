@@ -117,12 +117,12 @@
                         <textarea rows="3" class="form-control" type="text" name="Skills" id="Skills"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="Skills"style="color:#000;">Additional Information</label>
-                        <textarea rows="3" class="form-control" type="text" name="Skills" id="Skills"></textarea>
+                        <label for="AdditionalInformation"style="color:#000;">Additional Information</label>
+                        <textarea rows="3" class="form-control" type="text" name="AdditionalInformation" id="AdditionalInformation"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="Skills"style="color:#000;">Summery</label>
-                        <textarea rows="3" class="form-control" type="text" name="Skills" id="Skills"></textarea>
+                        <label for="Summery"style="color:#000;">Summery</label>
+                        <textarea rows="3" class="form-control" type="text" name="Summery" id="Summery"></textarea>
                     </div>
                 </div>
                 <div class="col-lg-9">
