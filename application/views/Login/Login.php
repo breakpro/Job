@@ -23,7 +23,7 @@
                             <div class="col-lg-8 col-md-6 col-xs-12 col-sm-12" style="text-align: float-left;">
                             <span>
                                 <a href="#"><b style="color: white; margin-left: 20px;">Forgot password</b></a><br>
-                                <a href="<?php echo base_url('Signup/')?>"><b style="color: white; margin-left: 20px;">Create account</b></a>
+                                <a href="<?php echo base_url('Signup/')?>"><b style="color: white; margin-left: 20px;">New here? Create account</b></a>
                             </span>
                             </div>
                             <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12" style="text-align: float-right;">
