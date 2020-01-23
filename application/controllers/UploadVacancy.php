@@ -10,7 +10,7 @@ class UploadVacancy extends Admin_Controller
 
     public function index(){
         $this->data['mx']=null;
-        $this->render_new_template('Upload/Vacancy', $this->data);
+        $this->render_new_template('Upload/vacancy', $this->data);
     }
 
   

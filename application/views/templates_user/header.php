@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="<?php echo base_url('assets/styles/style-horizontal.min.css');?>">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
 
+
     <link rel="stylesheet" href="<?php echo base_url('assets/css/open-iconic-bootstrap.min.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css');?>">
     
