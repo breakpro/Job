@@ -1979,7 +1979,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .btn {
   display: inline-block;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -7312,7 +7312,7 @@ h1, h2, h3, h4, h5,
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
-    color: #fff; }
+    color: #fff ; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
@@ -7322,7 +7322,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .9rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #fff;
+    color: #fff ;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
@@ -8702,3 +8702,42 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+.container-padding{
+  padding-top: 100px !important;
+}
+
+.from_template_button{
+  
+  color:
+  #fff !important;
+  background:
+  #157efb;
+  border: none ;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px;
+}
+
+.from_template_button_green{
+  
+  color:#fff !important;
+  background:#5dd28e;
+  border: none ;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px;
+}
+div > ul > li.nav-item{
+  margin-top: 6px;
+}
+
+.bg-white{
+  background: #fff !important;
+}
