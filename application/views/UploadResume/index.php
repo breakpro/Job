@@ -108,35 +108,23 @@
                 </div>
                 <hr/>
                 <div class=" col-lg-3">
-                    <b class="main-title">Skills</b>
+                    <b class="main-title">Optional</b>
                 </div>
                 <div class="col-lg-9">
                     <hr/>
                     <div class="form-group">
+                        <label for="Skills"style="color:#000;">Skills</label>
+                        <textarea rows="3" class="form-control" type="text" name="Skills" id="Skills"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="Skills"style="color:#000;">Additional Information</label>
+                        <textarea rows="3" class="form-control" type="text" name="Skills" id="Skills"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="Skills"style="color:#000;">Summery</label>
                         <textarea rows="3" class="form-control" type="text" name="Skills" id="Skills"></textarea>
                     </div>
                 </div>
-                <div class=" col-lg-3">
-                    <b class="main-title">Additional Information</b>
-                </div>
-                <hr/>
-                <div class="col-lg-9">
-                    <hr/>
-                    <div class="form-group">
-                        <textarea rows="3" class="form-control" type="text" name="AdditionalInformation" id="AdditionalInformation"></textarea>
-                    </div>
-                </div>
-                <div class=" col-lg-3">
-                    <b class="main-title">Summery</b>
-                </div>
-                <hr/>
-                <div class="col-lg-9">
-                    <hr/>
-                    <div class="form-group">
-                        <textarea class="form-control" type="text" rows="3" name="Summery" id="Summery"></textarea>
-                    </div>
-                </div>
-                <div class=" col-lg-3"></div>
                 <div class="col-lg-9">
                     <input  class="btn btn-success" type="submit" value="Submit Resume"style="margin-bottom: 50px">
                 </div>
