@@ -2,6 +2,6 @@
     <div class="overlay"></div>
         <div class="container container-padding" >
             Type your code here
-        </div>
+     
+         </div>
     </div>
-</div>
