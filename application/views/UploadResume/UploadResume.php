@@ -125,6 +125,7 @@
                         <textarea rows="3" class="form-control" type="text" name="Summery" id="Summery"></textarea>
                     </div>
                 </div>
+                <div class="col-lg-3"></div>
                 <div class="col-lg-9">
                     <input  class="btn btn-success" type="submit" value="Submit Resume"style="margin-bottom: 50px">
                 </div>
