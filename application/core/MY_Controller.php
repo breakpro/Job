@@ -67,6 +67,14 @@ class Admin_Controller extends MY_Controller
 		$this->load->view('templates_user/footer', $data);
 	}
 
+	public function render_new_template($page = null, $data = array())
+	{
+		$this->load->view('templates_user/header',$data);
+		$this->load->view('templates_user/header_new', $data);
+		$this->load->view($page, $data);
+		$this->load->view('templates_user/footer', $data);
+	}
+
 
 	
 
