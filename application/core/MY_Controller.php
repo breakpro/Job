@@ -48,14 +48,13 @@ class Admin_Controller extends MY_Controller
 	// 	}
 	// }
 
-	public function render_template($page = null, $data = array())
+	public function render_admin_template($page = null, $data = array())
 	{
 		
-		$this->load->view('templates/header',$data);
-		$this->load->view('templates/header_menu',$data);
-		$this->load->view('templates/side_menubar',$data);
+		$this->load->view('templates_admin/header',$data);
+		$this->load->view('templates_admin/header_menu',$data);
 		$this->load->view($page, $data);
-		$this->load->view('templates/footer',$data);
+		$this->load->view('templates_admin/footer',$data);
 	}
 
 
