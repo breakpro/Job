@@ -1,4 +1,4 @@
-<div class="jumbotron" style="background-image: url('<?php echo base_url('assets/images/photo_2020-01-22_10-10-37.jpg');?>');">
+<div class="jumbotron" style="background-image: url('<?php echo base_url('assets/images/bg_1.jpg');?>');">
     <div class="row mt-4" >
         <!--		start of logo card-->
         <div class="col-md-3 col-lg-3 col-xs-12">
