@@ -1,5 +1,4 @@
 
-    
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row">
@@ -69,7 +68,6 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
   <script src="<?php echo base_url('assets/js/jquery.min.js');?>"></script>
   <script src="<?php echo base_url('assets/js/jquery-migrate-3.0.1.min.js');?>"></script>
   <script src="<?php echo base_url('assets/js/popper.min.js');?>"></script>
@@ -87,6 +85,33 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="<?php echo base_url('assets/js/google-map.js');?>"></script>
   <script src="<?php echo base_url('assets/js/main.js');?>"></script>
-    
-  </body>
+  <script src="<?php echo base_url('assets/js/validator.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/js/LoginValidator.js');?>"></script>
+  <script src="<?php echo base_url('assets/js/varification.js');?>"></script>
+<!--    for the authentication of phone number-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDtxlOn6BidM_IFaj61gewzfGUNDFyBEAw",
+            authDomain: "forgetpassword-318ec.firebaseapp.com",
+            databaseURL: "https://forgetpassword-318ec.firebaseio.com",
+            projectId: "forgetpassword-318ec",
+            storageBucket: "forgetpassword-318ec.appspot.com",
+            messagingSenderId: "571317984304",
+            appId: "1:571317984304:web:0c047b553e9566375321f5",
+            measurementId: "G-F736QMBZQQ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    </body>
 </html>

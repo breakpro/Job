@@ -303,3 +303,53 @@
 
 })(jQuery);
 
+// for varification
+
+ window.onload=function(){
+	 render();
+ };
+ function render(){
+	 window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
+		 'size': 'invisible',
+		 'callback': function(response) {
+			 // reCAPTCHA solved, allow signInWithPhoneNumber.
+			 onSignInSubmit();
+		 }
+	 });
+	 console.log('works')
+ }
+ function submitnumber() {
+	 document.getElementById("loginInfo").submit();
+	 console.log('works')
+
+ }
+ function Phoneautentication(){
+	 var number=document.getElementById('number').value;
+	 // Phone number authentication function of firebase
+	 // it takes two parameters firs one is number, and second is recaptcha
+	 firebase.auth().signInWithPhoneNumber(number, window.recaptchaVerifier).then(function(confirmationResult){
+		 window.confirmationResult=confirmationResult;
+		 coderesult=confirmationResult;
+		 console.log(coderesult);
+		 alert(
+			 "Code sent please fill the code to the space provided"
+		 );
+		 document.getElementById('forgot_password').setAttribute('style','display:none;')
+		 document.getElementById('confirm_password').setAttribute('style','display:block;')
+		 document.getElementById('confirm_password').setAttribute('class','modal fade show')
+	 }).catch(function(error){
+		 console.log(error.message);
+	 });
+ }
+
+ function verifycode(){
+	 var code=document.getElementById('verificationCode').value;
+	 coderesult.confirm(code).then(function(result){
+	 	 var user=result.user;
+		 console.log(user);
+		 alert("successfully logged in")
+
+	 }).catch(function (error){
+		 alert(error.message);
+	 });
+ }

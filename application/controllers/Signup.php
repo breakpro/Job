@@ -10,6 +10,7 @@ class Signup extends Admin_Controller
 
     public function index(){
         $this->data['mx']=null;
+        $this->logged_in();
         $this->render_users_template('Signup/Signup', $this->data);
     }
 
