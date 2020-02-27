@@ -10,6 +10,7 @@ class Customer extends Admin_Controller
 
     public function index(){
         $this->data['mx']=null;
+        $this->not_logged_in();
         $this->render_users_template('templates_user/body_content', $this->data);
     }
 

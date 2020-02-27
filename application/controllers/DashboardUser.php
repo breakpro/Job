@@ -10,6 +10,7 @@ class DashboardUser extends Admin_Controller
 
 	public function index()
 	{
-		$this->render_new_template('DashboardUser/card', $this->data);
+        $this->not_logged_in();
+        $this->render_new_template('DashboardUser/card', $this->data);
 	}
 }

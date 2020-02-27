@@ -13,8 +13,9 @@
 	          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
 	          <li class="nav-item cta mr-md-2"><a href="<?php echo base_url('login/index');?>" class="nav-link">Post a Job</a></li>
 	          <li class="nav-item cta cta-colored"><a href="<?php echo base_url('login/index');?>" class="nav-link">Want a Job</a></li>
+              <li><a href="<?php echo base_url('Login/logout') ?>"><i class="glyphicon glyphicon-log-out"></i> <span>Logout</span></a></li>
 
-	        </ul>
+            </ul>
 		</div>
 	</div>
 </nav>

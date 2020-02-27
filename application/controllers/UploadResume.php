@@ -10,6 +10,7 @@ class UploadResume extends Admin_Controller
 
     public function index(){
         $this->data['mx']=null;
+        $this->not_logged_in();
         $this->render_new_template('UploadResume/UploadResume', $this->data);
     }
 

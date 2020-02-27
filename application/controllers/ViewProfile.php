@@ -10,6 +10,7 @@ class ViewProfile extends Admin_Controller
 
     public function index(){
         $this->data['mx']=null;
+        $this->not_logged_in();
         $this->render_users_template('ViewProfile/ViewProfile', $this->data);
     }
 
